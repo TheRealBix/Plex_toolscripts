@@ -1,4 +1,4 @@
---Audio-delay
+--Audio_delay
 --Sets a custom audio delay
 function setAudioDelay()
     local delay = 0.24 -- Adjust this value as needed
