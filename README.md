@@ -10,8 +10,20 @@ Very simple script to set an audio delay
 ## SubASS_Restyler
 
 Smol script to restyle ass subs without degrading space positionning
-I recommend installing your preferred font as "SubASS" (or any custom name) in windows
 
+I recommend (re)installing your preferred font renamed as "SubASS" (or any custom name) in windows
+
+Requires ffmep installed and in PATH
+```
+winget install ffmpeg
+```
+To add in PATH (change XXX with your User name)
+```
+set Path "%Path%;C:\Users\XXX\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-6.0-full_build\bin"
+```
+```
+setx Path "%Path%;C:\Users\XXX\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-6.0-full_build\bin"
+```
 ---
 ## SonarrNoGap
 Script used to prevent spoiling from Plex when episodes are missing.
