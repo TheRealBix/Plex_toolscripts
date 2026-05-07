@@ -30,7 +30,7 @@ Script used to prevent spoiling from Plex when episodes are missing.
 
 Plex will not hide episodes if gaps are detected (eg: S02E01 S02E02 S2E04 S2E05 are available, until S2E03 is available S2E04 and S2E05 will stay hidden in Plex )
 
-Load the lua file with Sonarr connections - custom scripts - On Episode file Added, Renamed and Deleted.
+Load the py file with Sonarr connections - custom scripts - On Episode file Added, Renamed and Deleted.
 I recommend also using the Plex connection to trigger plex local scans.
 
 ---
